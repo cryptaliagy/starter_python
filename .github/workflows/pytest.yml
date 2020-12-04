@@ -1,4 +1,4 @@
-name: PyTest
+name: build
 
 on: [push]
 
@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python: ['3.6', '3.7']
+        python: ['3.6', '3.7', '3.8', '3.9']
     name: Testing acltest with python ${{ matrix.python }}
     steps:
       - uses: actions/checkout@v2
@@ -21,8 +21,10 @@ jobs:
 
       - name: Install flake8
         run: pip install flake8
-      - name: Link with flake8
+      - name: Lint with flake8
         run: flake8
+      - name: Run static type analyzer
+        run: mypy
 
       - name: Install pytest
         run: pip install -r test-requirements.txt
