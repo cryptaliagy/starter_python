@@ -1,5 +1,8 @@
 # Python Startup Template Repository!
 
+![Build status badge](https://img.shields.io/github/workflow/status/taliamax/starter_python/build)
+![MIT License badge](https://img.shields.io/github/license/taliamax/starter_python)
+
 Starting up new projects, especially command-line applications, can often be tedious. It's hard to remember all of the tools that are used to speed up development and how they're properly configured. This repository allows that step to be recycled by providing a starter CLI with everything needed out of the box, including testing automation through Github Actions.
 
 ### Table of Contents
