@@ -7,6 +7,7 @@ Starting up new projects, especially command-line applications, can often be ted
 1. [What to edit first](#What-to-edit-first)
 1. [Installation](#Installation)
 1. [What are all these tools??](#What-are-all-these-tools)
+1. [Extra documentation](#Extra-documentation)
 
 ## License
 This repository is offered under an MIT license and is free to be used however one might prefer
@@ -45,3 +46,11 @@ Also check out their [repository](https://gitlab.com/pycqa/flake8) and their [do
 `mypy` is a static type analyzer. Python is a dynamically typed language, and `mypy` doesn't seek to change that. However, they do hope to add some of the benefits of static typing, such as legibility. It's a fairly popular tool, and you can read some of its benefits [here](https://dropbox.tech/application/our-journey-to-type-checking-4-million-lines-of-python). If you're new to python type hints (they were introduced in Python 3.5), check out the [docs](https://docs.python.org/3/library/typing.html)
 
 `pytest` is a popular python testing framework. It has good outputs and plenty of plugins, including a coverage report to see how much of your code is covered by tests.
+
+
+## Extra documentation
+The following links might be helpful:
+- [Click Quickstart](https://click.palletsprojects.com/en/7.x/quickstart/)
+- [Pytest docs](https://docs.pytest.org/en/stable/contents.html)
+- [Pytest fixtures](https://docs.pytest.org/en/stable/fixture.html)
+- [Parametrizing tests](https://docs.pytest.org/en/stable/example/parametrize.html)
