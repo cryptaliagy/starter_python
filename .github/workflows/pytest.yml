@@ -17,16 +17,12 @@ jobs:
           python-version: ${{ matrix.python }}
 
       - name: Install dependencies and script
-        run: pip install -r requirements.txt .
+        run: pip install -r requirements.txt -r test-requirements .
 
-      - name: Install flake8
-        run: pip install flake8
       - name: Lint with flake8
         run: flake8
       - name: Run static type analyzer
         run: mypy
 
-      - name: Install pytest
-        run: pip install -r test-requirements.txt
       - name: Test with pytest
         run: pytest tests/
