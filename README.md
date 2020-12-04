@@ -6,7 +6,7 @@ Starting up new projects, especially command-line applications, can often be ted
 1. [License](#License)
 1. [What to edit first](#What-to-edit-first)
 1. [Installation](#Installation)
-1. [What are all these tools??](#What-are-all-these-tools??)
+1. [What are all these tools??](#What-are-all-these-tools)
 
 ## License
 This repository is offered under an MIT license and is free to be used however one might prefer
@@ -39,7 +39,7 @@ pytest;
 ## What are all these tools??
 `pre-commit` is a tool used to run a series of checks before `git commit` is finished executing. This may seem cumbersome or annoying, but it'll often catch little mistakes that degrade code quality over time. Quite a few of the checks that it runs will also fix the problems that they are checking for.
 
-`flake8` is a linter. You can read some more about it [here](https://en.wikipedia.org/wiki/Lint_(software)).
+`flake8` is a linter. You can read some more about linters [here](https://en.wikipedia.org/wiki/Lint_(software)).
 Also check out their [repository](https://gitlab.com/pycqa/flake8) and their [documentation](https://flake8.pycqa.org/en/latest/)
 
 `mypy` is a static type analyzer. Python is a dynamically typed language, and `mypy` doesn't seek to change that. However, they do hope to add some of the benefits of static typing, such as legibility. It's a fairly popular tool, and you can read some of its benefits [here](https://dropbox.tech/application/our-journey-to-type-checking-4-million-lines-of-python). If you're new to python type hints (they were introduced in Python 3.5), check out the [docs](https://docs.python.org/3/library/typing.html)

@@ -17,7 +17,7 @@ jobs:
           python-version: ${{ matrix.python }}
 
       - name: Install dependencies and script
-        run: pip install -r requirements.txt -r test-requirements .
+        run: pip install -r requirements.txt -r test-requirements.txt .
 
       - name: Lint with flake8
         run: flake8
