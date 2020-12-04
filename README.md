@@ -43,3 +43,5 @@ pytest;
 Also check out their [repository](https://gitlab.com/pycqa/flake8) and their [documentation](https://flake8.pycqa.org/en/latest/)
 
 `mypy` is a static type analyzer. Python is a dynamically typed language, and `mypy` doesn't seek to change that. However, they do hope to add some of the benefits of static typing, such as legibility. It's a fairly popular tool, and you can read some of its benefits [here](https://dropbox.tech/application/our-journey-to-type-checking-4-million-lines-of-python). If you're new to python type hints (they were introduced in Python 3.5), check out the [docs](https://docs.python.org/3/library/typing.html)
+
+`pytest` is a popular python testing framework. It has good outputs and plenty of plugins, including a coverage report to see how much of your code is covered by tests.
